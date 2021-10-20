@@ -118,7 +118,7 @@ function hack()
 
   								var linkres = "Redirecting...";
     	      	       			document.getElementById("output").innerHTML =  hacknum + syshackcom + datanum + sysdatabasecom + comdataextract + datadecoded + "<br> Details:<br>UserName: " + inputname + "<br>E-mail and Password: " + linkres;																								
-    	      	       			setTimeout(rickroll(),10000)
+    	      	       			setInterval(rickroll(),1000)
     	      	       			function rickroll(){
     	      	       				
     	      	       				location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
