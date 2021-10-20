@@ -113,10 +113,17 @@ function hack()
   								element.classList.remove("Super");
   								var element = document.getElementById("super");
   								element.classList.add("displaynone");
-  								var linkname = "Click Here!";
-  								var linkres = linkname.link("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-    	      	       			document.getElementById("output").innerHTML =  hacknum + syshackcom + datanum + sysdatabasecom + comdataextract + datadecoded + "<br> Details:<br>UserName: " + inputname + "<br>E-mail and Password: " + linkres;																								
+    	       					
+  							
 
+  								var linkres = "Redirecting...";
+    	      	       			document.getElementById("output").innerHTML =  hacknum + syshackcom + datanum + sysdatabasecom + comdataextract + datadecoded + "<br> Details:<br>UserName: " + inputname + "<br>E-mail and Password: " + linkres;																								
+    	      	       			setTimeout(rickroll(),10000)
+    	      	       			function rickroll(){
+    	      	       				
+    	      	       				location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    	      	       			}
+    	      	       			
 
     	       				}
     	       			}
